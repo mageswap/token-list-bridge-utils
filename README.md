@@ -74,11 +74,11 @@ mergeTokenLists
 
 ## Usage (from external package):
 ### Install Package
-`yarn add @uniswap/token-list-bridge-utils`
+`yarn add @mageswap/token-list-bridge-utils`
 
 or
 
-`npm i @uniswap/token-list-bridge-utils`
+`npm i @mageswap/token-list-bridge-utils`
 
 ### Create .env file (Optional)
 - By default, the library uses `https://cloudflare-eth.com/` as the MAINNET_RPC env variable value required by arbitrum-sdk. You can override this value by creating a .env file in your root directory and setting a value for MAINNET_RPC.
@@ -90,11 +90,11 @@ or
 
 ### Call Function
 #### CommonJS
-`const bridge_utils  = require('@uniswap/token-list-bridge-utils');`
+`const bridge_utils  = require('@mageswap/token-list-bridge-utils');`
 
 `let chainifiedList = await bridge_utils.chainify(tokenList);`
 #### ESM
-`import { chainify } from '@uniswap/token-list-bridge-utils';`
+`import { chainify } from '@mageswap/token-list-bridge-utils';`
 
 `let chainifiedList = await chainify(tokenList);`
 
